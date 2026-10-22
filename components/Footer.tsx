@@ -8,9 +8,20 @@
 
 const Footer = () => {
     return (
-        <div>
-
-        </div>
+        <footer className="flex justify-center p-4">
+            <span className="text-xs font-semibold text-blue-700 px-3 py-1">
+                New Generation High School
+            </span>
+            <span className="text-xs font-semibold text-blue-700 px-3 py-1">
+                [Address]
+            </span>
+            <span className="text-xs font-semibold text-blue-700 px-3 py-1">
+                [Phone number]
+            </span>
+            <span className="text-xs font-semibold text-blue-700 px-3 py-1">
+                [Email]
+            </span>
+        </footer>
     );
 };
 

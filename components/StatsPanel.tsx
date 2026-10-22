@@ -8,7 +8,7 @@
 const StatsPanel = () => {
     return (
         <div>
-
+            
         </div>
     );
 };
