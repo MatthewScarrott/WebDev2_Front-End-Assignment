@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 /*
-=======
-/* 
->>>>>>> Stashed changes
 * File name: page.tsx
 * Author: Matthew Scarrott
 * Date: Oct. 30, 2026
