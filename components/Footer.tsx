@@ -13,13 +13,13 @@ const Footer = () => {
                 New Generation High School
             </span>
             <span className="text-xs font-semibold text-blue-700 px-3 py-1">
-                [Address]
+                1301 16 Avenue NW | Calgary, AB | T2M 0L4
             </span>
             <span className="text-xs font-semibold text-blue-700 px-3 py-1">
-                [Phone number]
+                403-284-7248
             </span>
             <span className="text-xs font-semibold text-blue-700 px-3 py-1">
-                [Email]
+                sait@sait.ca
             </span>
         </footer>
     );
