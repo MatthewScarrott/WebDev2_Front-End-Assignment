@@ -3,7 +3,10 @@
 * Author: Matthew Scarrott
 * Date: Oct. 30, 2026
 * 
-* 
+* Description:
+* The Navbar component displays information at the top of every page.
+* It displays the name of the school.
+* It also displays buttons to scroll down to three different sections of the page.
 */
 
 import { link } from "fs";

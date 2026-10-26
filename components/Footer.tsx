@@ -3,7 +3,10 @@
 * Author: Matthew Scarrott
 * Date: Oct. 30, 2026
 * 
-* 
+* Description:
+* The Footer component displays information at the bottom of every page.
+* It displays the name of the school.
+* It also displays the address, phone number, and email for the school.
 */
 
 const Footer = () => {
