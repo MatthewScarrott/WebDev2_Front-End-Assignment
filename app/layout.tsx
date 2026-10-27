@@ -1,15 +1,3 @@
-/*
-* File name: layout.tsx
-* Author: Matthew Scarrott
-* Date: Oct. 30, 2026
-* 
-* Description:
-* 
-* 
-* 
-* 
-*/
-
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";

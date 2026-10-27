@@ -5,6 +5,7 @@
 * 
 * Description:
 * The Footer component displays information at the bottom of every page.
+* It does not receive props and does not hold any state.
 * It displays the name of the school.
 * It also displays the address, phone number, and email for the school.
 */
