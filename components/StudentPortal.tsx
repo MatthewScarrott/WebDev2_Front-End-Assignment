@@ -4,6 +4,7 @@ import SearchBox from "./SearchBox";
 import { students as initialStudents, Student } from "@/data/students";
 import StudentList from "./StudentList";
 import AddStudent from "./AddStudent";
+import StatsPanel from "./StatsPanel";
 /*
 * File Name SearchBox.tsx
 * Author: Ryan Dezall
@@ -88,10 +89,13 @@ const StudentPortal = () => {
                     </button>
                 </div>
 
-                {/* Member A (Matthew) - StatsPanel will be plugged in here */}
-                {/* <StatsPanel total={totalStudents} honourRoll={honourStudentCount} grade12={graduatingStudentsCount} /> */}
+                {/* StatsPanel implementation */}
                 <div className="bg-slate-50 border border-dashed border-slate-300 rounded-xl p-6 text-center text-slate-500 text-sm">
-                    [Member A] StatsPanel will plug in here
+                    <StatsPanel
+                        total={totalStudents}
+                        honourRoll={honourStudentCount}
+                        grade12={graduatingStudentsCount}
+                    />
                 </div>
             </section>
 
@@ -102,7 +106,7 @@ const StudentPortal = () => {
                     <p className="text-sm text-slate-500">Search and manage current enrollments</p>
                 </div>
 
-                {/* SearchBox implemnetation */}
+                {/* SearchBox implementation */}
                 <SearchBox 
                 searchContent={searchContent}
                 onSearchChange={updatedSearchContent} />
