@@ -5,8 +5,9 @@
 * 
 * Description:
 * The Navbar component displays information at the top of every page.
+* It does not receive props and does not hold any state.
 * It displays the name of the school.
-* It also displays buttons to scroll down to three different sections of the page.
+* It also displays three links that jump to the Overview, Students, and Add a Student sections of the page.
 */
 
 import { link } from "fs";
@@ -22,19 +23,19 @@ const Navbar = () => {
                     type="button"
                     className="text-xs font-semibold text-white bg-blue-600 px-3 py-1 rounded-full hover:bg-blue-700 transition cursor-pointer"
                 >
-                    <a href="">Overview</a>
+                    <a href="#overview">Overview</a>
                 </button>
                 <button
                     type="button"
                     className="text-xs font-semibold text-white bg-blue-600 px-3 py-1 rounded-full hover:bg-blue-700 transition cursor-pointer"
                 >
-                    <a href="">Students</a>
+                    <a href="#students">Students</a>
                 </button>
                 <button
                     type="button"
                     className="text-xs font-semibold text-white bg-blue-600 px-3 py-1 rounded-full hover:bg-blue-700 transition cursor-pointer"
                 >
-                    <a href="">Add a student</a>
+                    <a href="#add-student">Add a student</a>
                 </button>
             </div>
         </header>

@@ -33,6 +33,15 @@ const StudentPortal = () => {
         return fullName.includes(searchContent.toLowerCase().trim());
     });
 
+    // Stats use the full list (not filteredStudents) so they don't change while searching
+    const totalStudents = students.length;
+
+    // Honour roll: average of 80 or higher
+    const honourStudentCount = students.filter((s) => s.average >= 80).length;
+
+    // Grade 12 students
+    const graduatingStudentsCount = students.filter((s) => s.grade === 12).length;
+
     // ====================
     // 3. Event Handlers
     // ====================
