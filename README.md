@@ -17,6 +17,10 @@ Mary Ann Coloma:
 - StudentCard.tsx
 - 
 
+Deployed Website Link: https://web-dev2-front-end-assignment.vercel.app
+
+GitHub Link: https://github.com/MatthewScarrott/WebDev2_Front-End-Assignment
+
 Test Results:
 | # | Do this | You should see | Pass or Fail |
 |---|---|---|---|
