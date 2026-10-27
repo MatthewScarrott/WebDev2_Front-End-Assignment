@@ -1,3 +1,4 @@
+import StudentPortal from "@/components/StudentPortal";
 /*
 * File name: page.tsx
 * Author: Matthew Scarrott
@@ -6,9 +7,7 @@
 
 const Home = () => {
   return (
-    <main>
-      <h1></h1>
-    </main>
+    <StudentPortal />
   );
 };
 
