@@ -6,10 +6,16 @@ Matthew Scarrott:
 - Implemented StatsPanel.tsx into StudentPortal.tsx
 
 Ryan Dezall:
-
+- StudentPortal.tsx
+- SearchBox.tsx
+- AddStudent.tsx
+- 
 
 Mary Ann Coloma:
-
+- data/students.ts
+- StudentList.tsx
+- StudentCard.tsx
+- 
 
 Test Results:
 | # | Do this | You should see | Pass or Fail |
