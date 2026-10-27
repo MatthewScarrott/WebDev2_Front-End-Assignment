@@ -3,7 +3,7 @@
 /*
 * File Name SearchBox.tsx
 * Author: Ryan Dezall
-* Date: Oct 26, 2026
+* Date: Oct 30, 2026
 * 
 * Description:
 * This component is a controlled search input box that filters students by name.

@@ -33,8 +33,6 @@ const StudentPortal = () => {
         return fullName.includes(searchContent.toLowerCase().trim());
     });
 
-    const totalStudents = students.length;
-
     // ====================
     // 3. Event Handlers
     // ====================
