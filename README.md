@@ -9,13 +9,11 @@ Ryan Dezall:
 - StudentPortal.tsx
 - SearchBox.tsx
 - AddStudent.tsx
-- 
 
 Mary Ann Coloma:
 - data/students.ts
 - StudentList.tsx
 - StudentCard.tsx
-- 
 
 Deployed Website Link: https://web-dev2-front-end-assignment.vercel.app
 
